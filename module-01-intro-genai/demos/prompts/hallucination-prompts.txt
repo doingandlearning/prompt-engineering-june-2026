@@ -1,0 +1,10 @@
+# Hallucination check prompts — verify against official docs
+
+## Recent version (may not exist or be incomplete)
+Summarise the breaking changes in FastAPI 0.120.
+
+## Specific API (verify signature)
+What's the exact signature of FastAPI's JSONResponse in the current stable release?
+
+## Niche / compound (often invents packages)
+How do I use Redis response caching with FastAPI? Give the exact package name and one working example for Python 3.11.

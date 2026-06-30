@@ -1,0 +1,1 @@
+In one short paragraph, explain the difference between a Pydantic Body field and a Query parameter in FastAPI. We use Python 3.11 and FastAPI 0.110+.

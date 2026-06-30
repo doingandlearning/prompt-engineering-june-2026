@@ -1,0 +1,10 @@
+# Same task, three prompts — Python/FastAPI
+
+## Vague
+Write some code for our API
+
+## Clear
+Generate a FastAPI router with one GET endpoint that returns a list of users
+
+## Constrained
+Generate a FastAPI router for Python 3.11. Use APIRouter, return list[UserResponse], constructor-injected UserService, and HTTPException for errors. Do not return None — use 404 with a clear message.

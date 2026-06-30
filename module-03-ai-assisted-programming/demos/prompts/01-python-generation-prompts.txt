@@ -1,0 +1,16 @@
+# Demo 1: Python generation — Prompts
+
+## Prompt 1: Generate model
+Generate a SQLAlchemy 2.0 declarative model for a Book with the following fields:
+- id: int, primary key, auto-generated
+- title: str, required
+- author: str, required
+- isbn: str, unique, required
+- published_year: int, optional
+Use Python 3.11+ with type hints (Mapped[] style). Target MySQL.
+
+## Prompt 2: Add repository and service
+Now generate a repository abstraction for this Book entity and a service class with a method to find all books. Use constructor injection for dependencies. Return a list of book dicts suitable for a FastAPI response.
+
+## Prompt 3: Refine for team style
+Update the service to use explicit return types, handle empty results with a clear empty-list response, and follow PEP 8 naming. Do not use bare except.
