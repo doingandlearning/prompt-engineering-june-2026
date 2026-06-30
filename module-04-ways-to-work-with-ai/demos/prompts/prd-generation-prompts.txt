@@ -1,0 +1,46 @@
+# PRD-driven generation prompts — copy-paste scaffolds
+# Paste the spec from update-task-priority-spec.md into [SPEC] below.
+
+# --- Step 1: Request model and validation ---
+
+Using this spec:
+
+[SPEC]
+
+Generate UpdateTaskPriorityRequest as a Pydantic model with validation for the allowed priority values. Use Python 3.11 type hints. Follow FastAPI conventions.
+
+# --- Step 2: Service method ---
+
+Using this spec:
+
+[SPEC]
+
+And this request model we just created:
+
+[PASTE DTO FROM STEP 1]
+
+Generate the service method for update_task_priority. Include the ownership check and all error cases from the spec. Use constructor injection — the repository is passed in, not imported as a global. Raise appropriate exceptions or return typed errors matching the spec's status codes.
+
+# --- Step 3: Router endpoint ---
+
+Using this spec:
+
+[SPEC]
+
+And this service method we just created:
+
+[PASTE SERVICE FROM STEP 2]
+
+Generate the FastAPI router endpoint. Follow the response shapes and status codes in the spec. Use Depends for injection.
+
+# --- Step 4: Unit tests ---
+
+Using this spec:
+
+[SPEC]
+
+And this service method:
+
+[PASTE SERVICE FROM STEP 2]
+
+Generate pytest unit tests covering every acceptance criterion in the spec. Use descriptive test names that map to the ACs.
