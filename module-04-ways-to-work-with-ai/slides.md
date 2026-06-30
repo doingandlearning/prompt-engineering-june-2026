@@ -12,11 +12,6 @@ Their code works. But their prompts are still vague, the output often needs rewo
 
 **Type in chat: what's the one thing you'd tell them to do differently?**
 
-- Pull out repeated/repetitive prompting
-- Make a file with constant constraints to adhere to and have it reference that
-- Pair programming/apprenticeship learning - watch/work alongside someone who is doing it well
-- If they hadn't written a spec - how they know they are understanding the goal?
-- Do you understand the requirements?
 
 
 <!-- end_slide -->
