@@ -59,18 +59,6 @@ AI changes what good work looks like. It does not change whether good work is ne
 
 <!-- end_slide -->
 
-## A note on the exercises
-
-The hands-on exercises use a shared codebase: a **Library Management System** in Python (books, authors, loans, ISBN lookup).
-
-This is synthetic. Use it freely. Experiment. Get things wrong and diagnose why.
-
-Frontend developers: a React/Node worked example is available in Module 3 as an alternative.
-
-Business analysts: you participate fully in Modules 1–2 and the Jira-to-code demonstration in Module 3.
-
-<!-- end_slide -->
-
 ## Before we start
 
 A quick check:

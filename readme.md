@@ -61,24 +61,11 @@ Sidecar vs integrated workflows, context headers, working with multiple VS Code 
 
 A second session is planned approximately three months after the foundation day — shaped by what the team has encountered in practice (Python deep dives, standardising context headers, agent workflows, review of real team examples).
 
-See `new_outline.md` for the full follow-up session proposal (planned ~3 months after the foundation day).
 
 ---
-
-## Facilitator resources
-
-- `new_outline.md` — follow-up session outline and facilitator bio
-- `updates.md` — migration notes from the prior Copilot/.NET course
-- `BA_TRACK.md` — business analyst participation guide
-
-The `demo-codebase/` folder (C# TaskManagement) is **legacy** from the prior delivery; Module 3 uses `module-03-ai-assisted-programming/demos/code-samples/` instead.
-
----
-
 ## Each module contains
 
-- `slides.md` — Markdown Reveal.js-compatible slide deck
-- `presenterm_slides.md` — Terminal presentation format (where available)
+- `slides.md` — Markdown presenterm-compatible slide deck
 - `exercises/README.md` — Delegate-facing exercise instructions
 - `demos/` — Facilitator notes and sample prompts (Modules 1–3)
 
@@ -89,4 +76,3 @@ The `demo-codebase/` folder (C# TaskManagement) is **legacy** from the prior del
 - VS Code with GitHub Copilot, Codex, and/or Claude integrations active
 - Python 3.11+ for Module 3 hands-on (or use provided teaching examples)
 - Frontend developers may use the React/Node/PHP worked example in Module 3 instead of Python for one exercise
-- BAs need no IDE setup; they participate fully in Modules 1–2 and the Jira demonstration in Module 3
